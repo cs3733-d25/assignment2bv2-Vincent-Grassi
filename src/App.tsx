@@ -1,11 +1,12 @@
 import {Title} from "./components/title.tsx";
 import {Intro} from "./components/intro.tsx";
-import './App.css'
 import {Hobby1} from "./components/hobby1.tsx";
+import {Hobby2} from "./components/hobby2.tsx";
+import './App.css'
 
 function App() {
 
-    const names = ["Jacob Curtis", "_____"]
+    const names = ["Jacob Curtis", "Vincent Grassi"]
 
 
   return (
@@ -14,6 +15,8 @@ function App() {
         <Intro names={names}></Intro>
         <h1>Magic: the Gathering</h1>
         <Hobby1></Hobby1>
+        <h1>Hiking</h1>
+        <Hobby2></Hobby2>
     </>
   )
 }
